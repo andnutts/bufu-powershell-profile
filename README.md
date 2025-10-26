@@ -4,7 +4,7 @@ A modular PowerShell profile framework with reusable scripts and oh-my-posh them
 
 ## Structure
 `
-bufu-powershell-profile/
+bufu-powershell-profile
 ├── PowerShell
 │   ├── .psscriptanalyzer.psd1
 │   ├── Microsoft.PowerShell_profile.ps1
