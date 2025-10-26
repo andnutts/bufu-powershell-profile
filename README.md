@@ -3,7 +3,7 @@
 A modular PowerShell profile framework with reusable scripts and oh-my-posh themes — built for reliability, safe onboarding, and easy customization.
 
 ## Structure
-`
+
 bufu-powershell-profile
 ├── PowerShell
 │   ├── .psscriptanalyzer.psd1
@@ -18,7 +18,7 @@ bufu-powershell-profile
         ├── example.omp.json
         ├── multiverse-neon.omp.json
         └── mytheme.omp.json
-`
+
 
 ## Quick start
 
