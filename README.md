@@ -4,22 +4,7 @@ A modular PowerShell profile framework with reusable scripts and oh-my-posh them
 
 ## Structure
 
-bufu-powershell-profile
-├── .gitignore
-├── README.md
-├── PowerShell
-│   ├── .psscriptanalyzer.psd1
-│   ├── Microsoft.PowerShell_profile.ps1
-│   └── profile.ps1
-└── SharedConfigs
-    ├── MyAliases.ps1
-    ├── MyFunctions.ps1
-    ├── MyHelpers.ps1
-    └── Themes
-        ├── dracula.omp.json
-        ├── example.omp.json
-        ├── multiverse-neon.omp.json
-        └── mytheme.omp.json
+<img width="410" height="396" alt="image" src="https://github.com/user-attachments/assets/88a16c34-fdf1-4080-a256-e277a9a7d0b3" />
 
 
 ## Quick start
