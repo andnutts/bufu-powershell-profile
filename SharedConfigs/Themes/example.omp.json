@@ -1,0 +1,69 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "version": 2,
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "os",
+          "style": "plain",
+          "template": " {{ .HostName }} "
+        },
+        {
+          "type": "path",
+          "style": "plain",
+          "template": " {{ .Path }} "
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "git",
+          "style": "plain",
+          "template": " {{ .UpstreamIcon }}{{ .BranchStatus }}{{ .WorkingStatus }} "
+        },
+        {
+          "type": "text",
+          "style": "plain",
+          "template": " \u276f "
+        }
+      ]
+    },
+    {
+      "type": "rprompt",
+      "segments": [
+        {
+          "background": "#83769c",
+          "foreground": "#ffffff",
+          "invert_powerline": true,
+          "powerline_symbol": "\ue0b2",
+          "properties": {
+            "always_enabled": true
+          },
+          "style": "powerline",
+          "template": "{{ .FormattedMs }}",
+          "type": "executiontime"
+        },
+        {
+          "template": "<#0077c2,transparent>\ue0b6</> \uf489 {{ .Name }} <transparent,#0077c2>\ue0b2</>",
+          "foreground": "#ffffff",
+          "background": "#0077c2",
+          "type": "shell",
+          "style": "plain"
+        },
+        {
+          "type": "time",
+          "style": "plain",
+
+
+
+        }
+      ]
+    }
+  ]
+}

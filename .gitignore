@@ -1,0 +1,16 @@
+# Basic ignores for a config-focused repo
+*.log
+*.bak
+*.cache
+*.tmp
+
+# System files
+Thumbs.db
+.DS_Store
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# PowerShell
+ModuleCache/
